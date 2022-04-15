@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: black;
+}
+
+div {
+    height: 33.33333vh;
+    min-height: 100px;
+}
+
+#fahrenheit {
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+}
+
+input[type=number] {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    background-color: black;
+    color: white;
+    font-size: 10em;
+    text-align: center;
+    border: 0;
+    font-family: 'Asap', sans-serif;
+    appearance: textfield; /* Firefox */
+}
+
+::placeholder {
+    color: #444444;
+}
